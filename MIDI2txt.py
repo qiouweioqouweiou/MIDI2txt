@@ -1,8 +1,8 @@
 import mido
 import os
 
-files_mid = []
-files_txt = []
+files_mid = ["test.mid"]
+files_txt = ["test.txt"]
 
 for file in os.listdir():
     if file.endswith('.mid'):
